@@ -14,9 +14,6 @@ public class SplitNumbers {
 	System.out.print(parseInt1 + " "+parseInt2);
 	System.out.println("");
 //	System.out.print(parseInt2);
-	
-	System.out.println("");
-	System.out.println("");
 
 	
 
