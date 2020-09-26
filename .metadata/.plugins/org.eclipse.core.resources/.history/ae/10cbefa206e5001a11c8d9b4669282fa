@@ -1,0 +1,26 @@
+Feature: Verifying adactin Hotel booking
+
+  Scenario Outline: Verifying adactin login page
+    Given User is on Adactin login Page
+    When User enter the "<username>" and "<password>"
+    Then user enter the loginButton
+
+    Examples: 
+      | username | password   |
+      | dina2311 | D@12345678 |
+@sanity
+  Scenario Outline: Verifying Search Hotel Page
+    Given User is on AdactIn search Hotel page
+    When User select the "<Location>" , "<Hotels>" , "<RoomType>","<Number of Rooms>"
+    And User enter the Date	"<check in Date>" , "<check out Date>"
+    And User select the "<Adults per room>","<Childrens per room>"
+    Then User should click the SearchButton
+
+    Examples: 
+      | Location | Hotels         | RoomType | Number Of Rooms | check in Date | check out Date | Adults per room | Childrens per room |
+      | London   | Hotel Sunshine | Double   | 7 - Seven       | 14/02/2020    | 28/02/2020     | 4-Four          | 3-Three            |
+@smoke
+  Scenario: Verifying Select Hotel Page
+    Given User is on AdactIn Select Hotel page
+    When user select the radio button of Hotel lists
+    Then User should click the continueButton

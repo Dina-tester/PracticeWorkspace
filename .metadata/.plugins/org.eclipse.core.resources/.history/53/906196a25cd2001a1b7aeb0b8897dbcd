@@ -1,0 +1,13 @@
+package org.in;
+
+import java.io.File;
+
+
+
+public class ExcelWrite {
+	File Fileloction= new File("C:\\Users\\dinesh\\Desktop");
+	Workbook w = new XSSFWorkbook();
+	
+	
+
+}

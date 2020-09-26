@@ -1,0 +1,19 @@
+package org.in;
+
+import java.io.File;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ExcelWrite {
+	File Fileloction = new File("C:\\Users\\dinesh\\Desktop");
+	Workbook w = new XSSFWorkbook();
+	Sheet s = w.createSheet("dinesh");
+	Row r = s.createRow(1);
+	Cell c = r.createCell(1);
+	
+
+}

@@ -1,0 +1,21 @@
+package org.in;
+
+public class a {
+
+	public static void main(String[] args) {
+
+		int n = 153;
+		int num = 0, res = 0;
+		while (num > 0) {
+			int rem = num % 10;
+			res = res + (rem * rem * rem);
+			num = num / 10;
+		}
+		if (n == res) {
+			System.out.println(n + "is a amstrong number");
+		}
+		else {
+			System.out.println(n + "Not an amstrong number");
+		}
+	}
+}

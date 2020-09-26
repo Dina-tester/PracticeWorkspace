@@ -1,0 +1,69 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Verifying adactin login page",
+        "description": "",
+        "id": "verifying-adactin-hotel-booking;verifying-adactin-login-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 35271986608,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Adactin login Page",
+            "match": {
+              "location": "Stepdefinition.user_is_on_Adactin_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4001331372,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the \"dina2311\" and \"D@12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dina2311\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"D@12345678\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5270686595,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter the loginButton",
+            "match": {
+              "location": "Stepdefinition.user_enter_the_loginButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying adactin Hotel booking",
+    "description": "",
+    "id": "verifying-adactin-hotel-booking",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/LoginFeature.feature",
+    "tags": []
+  }
+]

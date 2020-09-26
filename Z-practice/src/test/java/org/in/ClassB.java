@@ -1,0 +1,49 @@
+package org.in;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ClassB {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "E:\\Ellipse - Gtech\\selenium drivers\\Latest 84.0\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		
+		String text = null;
+		//WebElement webElement;
+		
+		JavascriptExecutor js= (JavascriptExecutor)driver;
+		
+		driver.get("https://www.google.co.in/");
+		
+		driver.findElement(By.name("q")).click();
+		
+		List<WebElement> findElements = driver.findElements(By.tagName("li"));
+		
+		for (WebElement webElement : findElements) 
+		{
+			
+			text = webElement.getText();
+			System.out.println(text);
+			
+			  if (text.equalsIgnoreCase("videos")) {
+			  
+			  js.
+			  executeScript("arguments[0].setAttribute('style','background: yellow; border: 2px solid red;');"
+			  , webElement);
+			  
+			  }
+			 
+	
+		}
+		
+	}
+
+	
+
+}

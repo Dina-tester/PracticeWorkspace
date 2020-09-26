@@ -1,0 +1,17 @@
+package org.in;
+
+import java.util.TreeSet;
+
+public class ArraySorted {
+	public static void main(String[] args) {
+		int a[]= {3,2,3,9,9,6,4};
+		
+		TreeSet ts = new TreeSet();
+		
+		for (Object x : ts) {
+			System.out.println(x);
+		}
+		
+	}
+
+}

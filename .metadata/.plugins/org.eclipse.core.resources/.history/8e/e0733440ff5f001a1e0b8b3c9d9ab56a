@@ -1,0 +1,29 @@
+package org.in;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+
+public class StringCount {
+	public static void main(String[] args) {
+		String s = "selenium,java,selenium,selenium,oops,java";
+		LinkedHashMap<String,Integer> hm = new LinkedHashMap<String,Integer>();
+		String[] split = s.split("");
+		
+		//for (String ch : split) 
+		for (int i = 0; i < s.length(); i++) {
+			char ch = s.charAt(i);
+		
+		{
+			if (hm.containsKey(ch)) {
+				Integer in = hm.get(ch);
+				hm.put(ch, in + 1);
+				
+			}
+			else {
+				hm.put(ch,1);
+			}
+		System.out.println(hm);
+		}
+	}
+
+}

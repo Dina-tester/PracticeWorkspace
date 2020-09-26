@@ -1,0 +1,68 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "To verify Hotel Booking Pages",
+        "description": "",
+        "id": "to-verify-adactin-hotel-website;to-verify-hotel-booking-pages;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User on the Adactin page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User enter the \"dina2311\" and \"D@12345678\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User to fill the search hotel detail Page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user should select the hotel",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user should fill the Book a hote page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify Adactin Hotel Website",
+    "description": "",
+    "id": "to-verify-adactin-hotel-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/Features.feature",
+    "tags": []
+  }
+]

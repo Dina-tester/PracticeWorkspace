@@ -1,0 +1,161 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Verifying adactin login page",
+        "description": "",
+        "id": "verifying-adactin-hotel-booking;verifying-adactin-login-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10738726076,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Adactin login Page",
+            "match": {
+              "location": "Stepdefinition.user_is_on_Adactin_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 742955116,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the \"dina2311\" and \"D@12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dina2311\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"D@12345678\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2040468667,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter the loginButton",
+            "match": {
+              "location": "Stepdefinition.user_enter_the_loginButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Verifying Search Hotel Page",
+        "description": "",
+        "id": "verifying-adactin-hotel-booking;verifying-search-hotel-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "User is on AdactIn search Hotel page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "User select the \"\u003cLocation\u003e\" , \"\u003cHotels\u003e\" , \"\u003cRoomType\u003e\",\"\u003cNumber of Rooms\u003e\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "User enter the Date\t\"\u003ccheck in Date\u003e\" , \"\u003ccheck out Date\u003e\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "User select the \"\u003cAdults per room\u003e\",\"\u003cChildrens per room\u003e\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "User should click the SearchButton",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verifying Select Hotel Page",
+        "description": "",
+        "id": "verifying-adactin-hotel-booking;verifying-select-hotel-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "User is on AdactIn Select Hotel page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "user select the radio button of Hotel lists",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "User should click the continueButton*/",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying adactin Hotel booking",
+    "description": "",
+    "id": "verifying-adactin-hotel-booking",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/LoginFeature.feature",
+    "tags": []
+  }
+]

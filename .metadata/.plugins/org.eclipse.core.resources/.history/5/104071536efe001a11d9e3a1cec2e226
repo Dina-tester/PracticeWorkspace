@@ -1,0 +1,16 @@
+package ja.in;
+
+public class Constructor {
+	int reg;
+	String name="";
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+	}
+
+}

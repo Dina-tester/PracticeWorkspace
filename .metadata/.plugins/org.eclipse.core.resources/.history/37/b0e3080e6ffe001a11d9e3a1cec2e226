@@ -1,0 +1,21 @@
+package ja.in;
+
+public class Constructor {
+	static int reg;
+	String name;
+	
+	Constructor(int a,String B) {
+		System.out.print(a+"\t"+B);
+		
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		Constructor c = new Constructor(2,"dinesh");
+		
+		
+		
+	}
+
+}

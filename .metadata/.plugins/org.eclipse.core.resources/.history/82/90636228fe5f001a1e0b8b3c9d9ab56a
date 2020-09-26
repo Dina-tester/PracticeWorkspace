@@ -1,0 +1,20 @@
+package org.in;
+
+import java.util.HashMap;
+
+public class StringCount {
+	public static void main(String[] args) {
+		String s = "selenium,java,selenium,selenium,oops,java";
+		HashMap<String,Integer> hm = new HashMap<String,Integer>();
+		String[] split = s.split("");
+		
+		for (String ch : split) {
+			if (hm.containsKey(ch)) {
+				hm.get(ch)
+				hm.put(ch, in + 1);
+				
+			}
+		}
+	}
+
+}

@@ -1,0 +1,27 @@
+package org.in;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.FluentWait;
+
+public class WindowsHandles {
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver",
+				"E:\\Ellipse - Gtech\\IDE program\\Pratics Workspace\\InterviewPreparation\\driver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get(
+				"https://www.snapdeal.com/products/kids-clothing?q=Brand%3ACherokee%5EColt%5EDonuts%5EKarigaari%7C&sort=plrty");
+		WebElement comboTshirt = driver.findElement(By.xpath("//p[@title='Cherokee Boys Short Sleeve Printed T Shirt - Pack Of 3']"));
+		comboTshirt.click();
+		
+		FluentWait<WebDriver> f = new FluentWait<WebDriver>(driver).withTimeout(Duration.ofSeconds(10)).pollingEvery(Duration.ofMillis(50)).ignoring(Throwable.class);
+	
+	
+	}
+
+}
+
