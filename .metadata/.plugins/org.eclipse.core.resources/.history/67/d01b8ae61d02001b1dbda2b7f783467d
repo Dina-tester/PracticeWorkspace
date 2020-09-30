@@ -1,0 +1,15 @@
+package revision.org;
+
+public class a extends system {
+
+	public static void main(String[] args) {
+		
+//	printstream s=new a();
+	
+	
+	static	string s="hi";
+	System.out.println(s);
+		
+	}
+	
+}

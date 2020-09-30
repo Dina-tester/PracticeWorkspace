@@ -1,0 +1,15 @@
+package revision.org;
+
+import java.util.Scanner;
+
+/*public class Palindrom {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc=new scanner(System.in);
+		sc.nextInt();
+		
+
+	}*/
+

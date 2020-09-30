@@ -1,0 +1,11 @@
+package revision.org;
+
+public class a {
+
+
+	 String s;
+	s=null;
+	System.out.println(s);
+	
+
+}

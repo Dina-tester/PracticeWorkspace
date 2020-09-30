@@ -1,0 +1,27 @@
+package revision.org;
+
+import java.util.Scanner;
+
+public class Palindrom {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number\t");
+		int num=sc.nextInt();
+		int n=num;
+		int result=0;
+		
+	while (num>0) {
+	int remainder=num%10;
+	result=(result*10)+remainder;
+	num=num/10;
+	}
+	if(result==n)
+		System.out.println("the given number is palindrom:\n"+ result);
+	else
+		System.out.println("enter number " + n + "not a palindrom");
+		
+	}
+} 
